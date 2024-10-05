@@ -8,6 +8,11 @@
     "test": "jest",
     "watch-test": "jest --watch"
   },
+  "repository":{
+    "type": "module",
+    "git": "your-git-repository",
+    "url": "(https://github.com/chandan-0416/Foodie.io)"
+  },
   "keywords": [
     "react",
     "food-delivery-app"
