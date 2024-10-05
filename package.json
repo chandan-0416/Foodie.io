@@ -1,5 +1,5 @@
 {
-  "name": "namaste-react",
+  "name": "food-delivery-app",
   "version": "1.0.0",
   "description": "namaste-react is Food Delivery App designed by Chandan Kushwaha",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "jest",
     "watch-test": "jest --watch"
   },
-  "repository":{
+  "repository": {
     "type": "module",
     "git": "your-git-repository",
     "url": "(https://github.com/chandan-0416/Foodie.io)"
@@ -30,13 +30,16 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5",
     "postcss": "^8.4.24",
     "process": "^0.11.10",
     "tailwindcss": "^3.4.13"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
+    "@swc/helpers": "^0.5.13",
     "axios": "^1.7.7",
+    "package-main": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.0",
@@ -48,6 +51,5 @@
   },
   "browserslist": [
     "last 2 versions"
-  ],
-  "main": "babel.config.js"
-}
+  ]
+ }
