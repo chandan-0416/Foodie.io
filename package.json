@@ -45,5 +45,5 @@
   "browserslist": [
     "last 2 versions"
   ],
-  "main": "babel.config.js"
+  "main": "babel.config.html"
 }
